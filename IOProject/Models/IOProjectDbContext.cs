@@ -12,6 +12,5 @@ namespace IOProject.Models
         }
 
         public DbSet<HelpProject> HelpProjects { get; set; }
-        public DbSet<FileAttachment> FileAttachments { get; set; }
     }
 }

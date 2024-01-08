@@ -15,7 +15,6 @@ builder.Services.AddDbContext<IOProjectDbContext>(options =>
 
 
 builder.Services.AddScoped<IHelpProjectRepos, HelpProjectRepos>();
-builder.Services.AddScoped<IFileAttachmentRepos, FileAttachmentRepos>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
