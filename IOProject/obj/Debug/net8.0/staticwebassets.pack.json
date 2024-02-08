@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
+      "PackagePath": "staticwebassets\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
+      "PackagePath": "staticwebassets\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
+      "PackagePath": "staticwebassets\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png",
+      "PackagePath": "staticwebassets\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png",
+      "PackagePath": "staticwebassets\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IOProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IOProject.props",
+      "PackagePath": "build\\IOProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IOProject.props",
+      "PackagePath": "buildMultiTargeting\\IOProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IOProject.props",
+      "PackagePath": "buildTransitive\\IOProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
