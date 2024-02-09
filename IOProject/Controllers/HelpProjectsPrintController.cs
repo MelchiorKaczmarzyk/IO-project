@@ -49,22 +49,6 @@ namespace IOProject.Controllers
             return View();
         }
 
-        // POST: HelpProjectsPrint/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ShortDescription,LongDescription,WhenCreated,Thumbnail,FileAttachments")] HelpProject helpProject)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(helpProject);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(helpProject);
-        }
-
         // GET: HelpProjectsPrint/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

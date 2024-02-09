@@ -1,62 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\02ebd04a-4b83-4b8b-8fee-6aabb67af73c_IO - opis dziedziny i dzialania.pdf",
-      "PackagePath": "staticwebassets\\Files\\02ebd04a-4b83-4b8b-8fee-6aabb67af73c_IO - opis dziedziny i dzialania.pdf"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\0ed9aba1-7b76-422a-a17f-bf582cfe0d39_IO - opis dziedziny i dzialania.pdf",
-      "PackagePath": "staticwebassets\\Files\\0ed9aba1-7b76-422a-a17f-bf582cfe0d39_IO - opis dziedziny i dzialania.pdf"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
-      "PackagePath": "staticwebassets\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\24067490-6c6a-49a1-a896-efc5ff70b6be_whats-with-all-the-cloak-hate-re.png",
-      "PackagePath": "staticwebassets\\Files\\24067490-6c6a-49a1-a896-efc5ff70b6be_whats-with-all-the-cloak-hate-re.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\59d8c0fe-3dca-46d7-b1b3-75aa6e6e4fea_use_case_diagram.pdf",
-      "PackagePath": "staticwebassets\\Files\\59d8c0fe-3dca-46d7-b1b3-75aa6e6e4fea_use_case_diagram.pdf"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
-      "PackagePath": "staticwebassets\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\810f1736-2dbb-497b-aec1-a07a93923b96_tresc.png",
-      "PackagePath": "staticwebassets\\Files\\810f1736-2dbb-497b-aec1-a07a93923b96_tresc.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\9d4e6261-2839-4a4c-bb84-c229aaa94bb5_use_case_diagram.pdf",
-      "PackagePath": "staticwebassets\\Files\\9d4e6261-2839-4a4c-bb84-c229aaa94bb5_use_case_diagram.pdf"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
-      "PackagePath": "staticwebassets\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\bfcd3751-9ded-43a6-aa7f-ad932eb31982_tresc.png",
-      "PackagePath": "staticwebassets\\Files\\bfcd3751-9ded-43a6-aa7f-ad932eb31982_tresc.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png",
-      "PackagePath": "staticwebassets\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png",
-      "PackagePath": "staticwebassets\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\cf334cd8-ecb0-407f-95af-77d534a6ea41_whats-with-all-the-cloak-hate-re.png",
-      "PackagePath": "staticwebassets\\Files\\cf334cd8-ecb0-407f-95af-77d534a6ea41_whats-with-all-the-cloak-hate-re.png"
-    },
-    {
-      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\f036aa17-0be6-492e-8fee-5aa231d675c3_whats-with-all-the-cloak-hate-re.png",
-      "PackagePath": "staticwebassets\\Files\\f036aa17-0be6-492e-8fee-5aa231d675c3_whats-with-all-the-cloak-hate-re.png"
-    },
-    {
       "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
