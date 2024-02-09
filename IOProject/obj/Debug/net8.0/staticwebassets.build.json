@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZRuJW6Y4f6izIYwOoygY3fM9OL+Xta3aYiIDBP9i+18=",
+  "Hash": "uG3I2h3F0PqzmtrPebBByQM3alFip2uHs0kK8Io+66k=",
   "Source": "IOProject",
   "BasePath": "_content/IOProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "IOProject\\wwwroot",
       "Source": "IOProject",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Michał\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css",
+      "Identity": "D:\\git\\IO-project\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css",
       "SourceId": "IOProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "IOProject.styles.css",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css"
+      "OriginalItemSpec": "D:\\git\\IO-project\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\css\\site.css",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\css\\site.css",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\favicon.ico",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\favicon.ico",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1252,10 +1252,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\02ebd04a-4b83-4b8b-8fee-6aabb67af73c_IO - opis dziedziny i dzialania.pdf",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/02ebd04a-4b83-4b8b-8fee-6aabb67af73c_IO - opis dziedziny i dzialania.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\02ebd04a-4b83-4b8b-8fee-6aabb67af73c_IO - opis dziedziny i dzialania.pdf"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\0ed9aba1-7b76-422a-a17f-bf582cfe0d39_IO - opis dziedziny i dzialania.pdf",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/0ed9aba1-7b76-422a-a17f-bf582cfe0d39_IO - opis dziedziny i dzialania.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\0ed9aba1-7b76-422a-a17f-bf582cfe0d39_IO - opis dziedziny i dzialania.pdf"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
       "AssetKind": "All",
@@ -1271,10 +1309,48 @@
       "OriginalItemSpec": "wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\24067490-6c6a-49a1-a896-efc5ff70b6be_whats-with-all-the-cloak-hate-re.png",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/24067490-6c6a-49a1-a896-efc5ff70b6be_whats-with-all-the-cloak-hate-re.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\24067490-6c6a-49a1-a896-efc5ff70b6be_whats-with-all-the-cloak-hate-re.png"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\59d8c0fe-3dca-46d7-b1b3-75aa6e6e4fea_use_case_diagram.pdf",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/59d8c0fe-3dca-46d7-b1b3-75aa6e6e4fea_use_case_diagram.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\59d8c0fe-3dca-46d7-b1b3-75aa6e6e4fea_use_case_diagram.pdf"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
       "AssetKind": "All",
@@ -1290,10 +1366,48 @@
       "OriginalItemSpec": "wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\810f1736-2dbb-497b-aec1-a07a93923b96_tresc.png",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/810f1736-2dbb-497b-aec1-a07a93923b96_tresc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\810f1736-2dbb-497b-aec1-a07a93923b96_tresc.png"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\9d4e6261-2839-4a4c-bb84-c229aaa94bb5_use_case_diagram.pdf",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/9d4e6261-2839-4a4c-bb84-c229aaa94bb5_use_case_diagram.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\9d4e6261-2839-4a4c-bb84-c229aaa94bb5_use_case_diagram.pdf"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
       "AssetKind": "All",
@@ -1309,10 +1423,29 @@
       "OriginalItemSpec": "wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\bfcd3751-9ded-43a6-aa7f-ad932eb31982_tresc.png",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/bfcd3751-9ded-43a6-aa7f-ad932eb31982_tresc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\bfcd3751-9ded-43a6-aa7f-ad932eb31982_tresc.png"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/c4d8238b-b817-4296-a374-2b64b205eadd_1.png",
       "AssetKind": "All",
@@ -1328,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png",
       "AssetKind": "All",
@@ -1347,10 +1480,48 @@
       "OriginalItemSpec": "wwwroot\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\js\\site.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\cf334cd8-ecb0-407f-95af-77d534a6ea41_whats-with-all-the-cloak-hate-re.png",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/cf334cd8-ecb0-407f-95af-77d534a6ea41_whats-with-all-the-cloak-hate-re.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\cf334cd8-ecb0-407f-95af-77d534a6ea41_whats-with-all-the-cloak-hate-re.png"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\f036aa17-0be6-492e-8fee-5aa231d675c3_whats-with-all-the-cloak-hate-re.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/f036aa17-0be6-492e-8fee-5aa231d675c3_whats-with-all-the-cloak-hate-re.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\f036aa17-0be6-492e-8fee-5aa231d675c3_whats-with-all-the-cloak-hate-re.png"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\js\\site.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1366,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1385,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1404,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1423,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1442,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1461,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1480,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1499,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1518,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1537,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1556,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1575,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1594,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1613,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1632,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1651,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1670,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1689,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",

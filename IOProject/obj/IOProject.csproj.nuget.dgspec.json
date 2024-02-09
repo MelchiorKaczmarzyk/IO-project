@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj": {}
+    "D:\\git\\IO-project\\IOProject\\IOProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj": {
+    "D:\\git\\IO-project\\IOProject\\IOProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj",
+        "projectUniqueName": "D:\\git\\IO-project\\IOProject\\IOProject.csproj",
         "projectName": "IOProject",
-        "projectPath": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj",
-        "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\",
+        "projectPath": "D:\\git\\IO-project\\IOProject\\IOProject.csproj",
+        "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\IO-project\\IOProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\melch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,7 +50,7 @@
             },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -72,7 +72,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

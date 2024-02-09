@@ -20,6 +20,22 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<IOProjectDbContext>();
 
+/*//Change default login requirements. (Doesn't want to work, i gave up)
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings. Default values in comments.
+    options.Password.RequireDigit = false; //true
+    options.Password.RequireLowercase = true; //true
+    options.Password.RequireNonAlphanumeric = false; //true
+    options.Password.RequireUppercase = false; //true
+    options.Password.RequiredLength = 3; //6
+    options.Password.RequiredUniqueChars = 1; //1
+
+    // Username settings.
+    options.User.RequireUniqueEmail = false;
+    options.SignIn.RequireConfirmedEmail = false;
+    options.SignIn.RequireConfirmedAccount = false;
+});*/
 
 var app = builder.Build();
 
@@ -31,6 +47,7 @@ app.MapRazorPages();
 app.MapDefaultControllerRoute();
 app.UseRouting();
 app.UseAuthorization();
+
 
 if (app.Environment.IsDevelopment())
 {

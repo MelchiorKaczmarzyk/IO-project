@@ -13,6 +13,11 @@ namespace IOProject.Controllers
         private readonly IHelpProjectRepos _helpProjectRepos;
         //private readonly IFileAttachmentRepos _fileRepos;
 
+        public IActionResult PrintProjects()
+        {
+            return View(_helpProjectRepos.AllProjects);
+        }
+
         public IActionResult DesignProject() => View();
 
         [HttpPost]
