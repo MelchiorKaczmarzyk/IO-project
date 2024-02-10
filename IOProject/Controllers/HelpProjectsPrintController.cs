@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IOProject.Models;
 
-//Controller only for showing projects. Everything is auto generated unless commented otherwise.
+//Controller for showing projects. Mostly auto generated.
 namespace IOProject.Controllers
 {
     public class HelpProjectsPrintController : Controller
@@ -19,10 +19,19 @@ namespace IOProject.Controllers
             _context = context;
         }
 
-        // GET: HelpProjectsPrint
+        // GET: HelpProjectsPrint - shows a list of projects.
         public async Task<IActionResult> Index()
         {
             return View(await _context.HelpProjects.ToListAsync());
+        }
+
+        // GET: HelpProjectsPrint/ShowSearchForm -  simple form for search input, redirects to ShowSearchResult
+        public IActionResult ShowSearchForm() => View();
+
+        // POST: HelpProjectsPrint/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View(await _context.HelpProjects.Where(j=>j.Title.Contains(SearchPhrase)).ToListAsync());
         }
 
         // GET: HelpProjectsPrint/Details/5

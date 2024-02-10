@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\c9d8a770-18be-46dd-b72b-df6ff719956f_whats-with-all-the-cloak-hate-re.png",
+      "PackagePath": "staticwebassets\\Files\\c9d8a770-18be-46dd-b72b-df6ff719956f_whats-with-all-the-cloak-hate-re.png"
+    },
+    {
       "Id": "D:\\git\\IO-project\\IOProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
