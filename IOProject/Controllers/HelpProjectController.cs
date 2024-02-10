@@ -11,7 +11,6 @@ namespace IOProject.Controllers
     public class HelpProjectController : Controller
     {
         private readonly IHelpProjectRepos _helpProjectRepos;
-        //private readonly IFileAttachmentRepos _fileRepos;
 
         public IActionResult DesignProject() => View();
 
@@ -59,7 +58,8 @@ namespace IOProject.Controllers
                     LongDescription = model.LongDescription,
                     WhenCreated = DateTime.Now,
                     Thumbnail = filePath,
-                    FileAttachments = fileAttachments
+                    FileAttachments = fileAttachments,
+                    createdBy = User.Identity.Name
                 };
                 _helpProjectRepos.AddHelpProject(newHelpProject);
                 return RedirectToAction("ProjectAdded");

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "ZRuJW6Y4f6izIYwOoygY3fM9OL+Xta3aYiIDBP9i+18=",
+=======
+  "Hash": "1V1ONoumvBs3RcsJE9KHeD30MDKp2Qy1EYA1pci9TSA=",
+>>>>>>> Stashed changes
   "Source": "IOProject",
   "BasePath": "_content/IOProject",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "IOProject\\wwwroot",
       "Source": "IOProject",
+<<<<<<< Updated upstream
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+=======
+      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,6 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
@@ -40,6 +56,15 @@
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,7 +77,11 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
+=======
+      "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js"
+>>>>>>> Stashed changes
     },
     {
       "Identity": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\css\\site.css",
@@ -1195,10 +1224,17 @@
       "OriginalItemSpec": "C:\\Users\\melch\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css",
       "SourceId": "IOProject",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css",
+      "SourceId": "IOProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "IOProject.styles.css",
       "AssetKind": "All",
@@ -1211,6 +1247,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css"
     },
     {
@@ -1218,6 +1255,15 @@
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IOProject.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\css\\site.css",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1233,10 +1279,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\favicon.ico",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\favicon.ico",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1252,12 +1305,21 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\Files\\092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1268,6 +1330,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png"
     },
     {
@@ -1277,6 +1340,17 @@
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
+=======
+      "OriginalItemSpec": "wwwroot\\Files\\092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png"
+    },
+    {
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\Files\\76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1287,6 +1361,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf"
     },
     {
@@ -1296,6 +1371,17 @@
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
       "BasePath": "_content/IOProject",
       "RelativePath": "Files/be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
+=======
+      "OriginalItemSpec": "wwwroot\\Files\\76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png"
+    },
+    {
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\Files\\9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1306,6 +1392,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf"
     },
     {
@@ -1351,6 +1438,15 @@
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot\\Files\\9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\js\\site.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1366,10 +1462,17 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1385,10 +1488,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1404,10 +1514,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1423,10 +1540,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1442,10 +1566,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1461,10 +1592,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1480,10 +1618,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1499,10 +1644,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1518,10 +1670,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1537,10 +1696,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1556,10 +1722,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1575,10 +1748,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1594,10 +1774,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1613,10 +1800,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1632,10 +1826,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1651,10 +1852,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1670,10 +1878,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1689,10 +1904,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "IOProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IOProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",

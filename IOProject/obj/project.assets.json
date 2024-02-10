@@ -8866,11 +8866,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj",
       "projectName": "IOProject",
       "projectPath": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj",
       "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj",
+      "projectName": "IOProject",
+      "projectPath": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj",
+      "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -32,12 +32,20 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png))">
+>>>>>>> Stashed changes
       <SourceType>Package</SourceType>
       <SourceId>IOProject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IOProject</BasePath>
+<<<<<<< Updated upstream
       <RelativePath>Files/11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png</RelativePath>
+=======
+      <RelativePath>Files/092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png</RelativePath>
+>>>>>>> Stashed changes
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +54,24 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png))">
+>>>>>>> Stashed changes
       <SourceType>Package</SourceType>
       <SourceId>IOProject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IOProject</BasePath>
+<<<<<<< Updated upstream
       <RelativePath>Files/6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf</RelativePath>
+=======
+      <RelativePath>Files/76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png</RelativePath>
+>>>>>>> Stashed changes
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +80,24 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png))">
+>>>>>>> Stashed changes
       <SourceType>Package</SourceType>
       <SourceId>IOProject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IOProject</BasePath>
+<<<<<<< Updated upstream
       <RelativePath>Files/be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf</RelativePath>
+=======
+      <RelativePath>Files/9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png</RelativePath>
+>>>>>>> Stashed changes
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,6 +106,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\c4d8238b-b817-4296-a374-2b64b205eadd_1.png))">
@@ -111,6 +140,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png))</OriginalItemSpec>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png))</OriginalItemSpec>
+>>>>>>> Stashed changes
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>

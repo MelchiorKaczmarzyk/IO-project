@@ -17,12 +17,17 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IOProject
 build_property.RootNamespace = IOProject
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\melch\source\repos\IOProject\IOProject\
+=======
+build_property.ProjectDir = C:\Users\melch\source\repos\IO-project-clone\IOProject\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< Updated upstream
 build_property.MSBuildProjectDirectory = C:\Users\melch\source\repos\IOProject\IOProject
 build_property._RazorSourceGeneratorDebug = 
 
@@ -71,5 +76,71 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/melch/source/repos/IOProject/IOProject/Views/_ViewStart.cshtml]
+=======
+build_property.MSBuildProjectDirectory = C:\Users\melch\source\repos\IO-project-clone\IOProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/HelpProjectsPrint/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFByb2plY3RzUHJpbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/HelpProjectsPrint/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFByb2plY3RzUHJpbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/HelpProjectsPrint/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFByb2plY3RzUHJpbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/HelpProjectsPrint/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFByb2plY3RzUHJpbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/HelpProject/DesignProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFByb2plY3RcRGVzaWduUHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/HelpProject/ProjectAdded.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFByb2plY3RcUHJvamVjdEFkZGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melch/source/repos/IO-project-clone/IOProject/Views/_ViewStart.cshtml]
+>>>>>>> Stashed changes
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
