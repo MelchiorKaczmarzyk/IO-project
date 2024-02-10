@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QOz6IBU02GQ8FC1ip/BoA7hzNu/E2vk04Wm/lIi2m9c=",
+  "Hash": "Su7gZAOuQ18V4uuYjD54s8hhGkSkVsxcCjHpR8vqzEE=",
   "Source": "IOProject",
   "BasePath": "_content/IOProject",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\c9d8a770-18be-46dd-b72b-df6ff719956f_whats-with-all-the-cloak-hate-re.png"
+    },
+    {
+      "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\Files\\fbdb0da5-f133-4eb8-b9a6-bf2a405a3778_whats-with-all-the-cloak-hate-re.png",
+      "SourceId": "IOProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\git\\IO-project\\IOProject\\wwwroot\\",
+      "BasePath": "_content/IOProject",
+      "RelativePath": "Files/fbdb0da5-f133-4eb8-b9a6-bf2a405a3778_whats-with-all-the-cloak-hate-re.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\fbdb0da5-f133-4eb8-b9a6-bf2a405a3778_whats-with-all-the-cloak-hate-re.png"
     },
     {
       "Identity": "D:\\git\\IO-project\\IOProject\\wwwroot\\js\\site.js",
