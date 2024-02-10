@@ -8860,23 +8860,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michał\\.nuget\\packages\\": {},
+    "C:\\Users\\melch\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\IO-project\\IOProject\\IOProject.csproj",
+      "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj",
       "projectName": "IOProject",
-      "projectPath": "D:\\git\\IO-project\\IOProject\\IOProject.csproj",
-      "packagesPath": "C:\\Users\\Michał\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\IO-project\\IOProject\\obj\\",
+      "projectPath": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj",
+      "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Michał\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\melch\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

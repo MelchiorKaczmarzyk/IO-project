@@ -4,6 +4,7 @@ using IOProject.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IOProject.Migrations
 {
     [DbContext(typeof(IOProjectDbContext))]
-    partial class IOProjectDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240210083641_Mkmigraton")]
+    partial class Mkmigraton
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,10 +53,6 @@ namespace IOProject.Migrations
 
                     b.Property<DateTime>("WhenCreated")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("createdBy")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
