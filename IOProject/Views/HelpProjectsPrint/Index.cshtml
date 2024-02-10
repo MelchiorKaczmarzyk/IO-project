@@ -36,13 +36,13 @@
             @Html.DisplayFor(modelItem => item.Title)
 			</td>
 				<td>
-					@{
-						@*To properly display thumbnail image we need to identify its relative path in wwwroot folder.*@
-					@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
-						string? relativeFileName = item.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
-					}
-					<img src="@relativeFileName" alt="" /> @*TODO? possibility to use CSS to properly contain the image*@
-				</td>
+                    @{
+                        @*To properly display thumbnail image we need to identify its relative path in wwwroot folder.*@
+                    @inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
+                        string? relativeFileName = item.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
+                    }
+                    <img src="@Url.Content("~/"+relativeFileName)" alt="" /> @*TODO? possibility to use CSS to properly contain the image*@
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ShortDescription)
             </td>

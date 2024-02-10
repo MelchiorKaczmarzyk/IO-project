@@ -19,10 +19,20 @@ namespace IOProject.Controllers
             _context = context;
         }
 
-        // GET: HelpProjectsPrint
+        // GET: HelpProjectsPrint - shows a list of projects.
         public async Task<IActionResult> Index()
         {
             return View(await _context.HelpProjects.ToListAsync());
+        }
+
+        // GET: HelpProjectsPrint/ShowSearchForm -  simple form for search input, redirects to ShowSearchResult
+        public IActionResult ShowSearchForm() => View();
+
+        // POST: HelpProjectsPrint/ShowSearchResults - shows search results, uses the Index view instead of creating a new one.
+        // SearchPhrase gets sent from ShowSearchResultForm form.
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index", await _context.HelpProjects.Where(j => j.Title.Contains(SearchPhrase)).ToListAsync());
         }
 
         // GET: HelpProjectsPrint/Details/5
