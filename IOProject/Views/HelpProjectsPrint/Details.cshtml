@@ -43,7 +43,17 @@
             @Html.DisplayNameFor(model => model.FileAttachments)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.FileAttachments)
+            @{
+                @foreach (var item in Model.FileAttachments)
+                {
+                    string? PdfName = item?.TrimStart(env.WebRootPath.ToCharArray());
+                    PdfName = PdfName?.TrimStart("//Files\\".ToCharArray());
+                    <a asp-action="DownloadFile" asp-route-outputFilePath="@item" target="_blank"> @PdfName </a>
+                    <br />
+                }
+                
+            }
+            
         </dd>
     </dl>
 </div>
