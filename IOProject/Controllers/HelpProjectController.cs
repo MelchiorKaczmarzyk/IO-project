@@ -71,7 +71,9 @@ namespace IOProject.Controllers
                             uniqueFileName = Guid.NewGuid().ToString() + "_" +
                                 attachment.FileName;
                             filePath = Path.Combine(uploadsFolder, uniqueFileName);
-                            attachment.CopyTo(new FileStream(filePath, FileMode.Create));
+                            Stream stream = new FileStream(filePath, FileMode.Create);
+                            attachment.CopyTo(stream);
+                            stream.Close();
                             fileAttachments.Add(filePath);
                         }
                     }
@@ -82,7 +84,9 @@ namespace IOProject.Controllers
                     uniqueFileName = Guid.NewGuid().ToString() + "_" +
                     model.Thumbnail.FileName;
                     filePath = Path.Combine(uploadsFolder, uniqueFileName);
-                    model.Thumbnail.CopyTo(new FileStream(filePath, FileMode.Create));
+                    Stream stream = new FileStream(filePath, FileMode.Create);
+                    model.Thumbnail.CopyTo(stream);
+                    stream.Close();
                 }
                 HelpProject newHelpProject = new HelpProject
                 {
