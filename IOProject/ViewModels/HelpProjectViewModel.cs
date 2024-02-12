@@ -29,5 +29,9 @@ namespace IOProject.ViewModels
 
         //[ValidationAttachments(ErrorMessage = "One of the files is too big or has inproper type")]
         public List<IFormFile>? Attachments {get; set;}
+
+        public List<string>? Tags { get; set;}
+
+        public List<Checkbox> Checkboxes;
     }
 }

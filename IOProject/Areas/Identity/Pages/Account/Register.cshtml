@@ -27,12 +27,29 @@
                 <label asp-for="Input.ConfirmPassword">Confirm Password</label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
+            <h6>Select a role</h6>
             <div class="form-group">
                 <select asp-for="Input.UserRole"
                         asp-items="@(Model.Roles)">
-                    <option>Select a role</option>
+
                 </select>
                 <span asp-validation-for="Input.UserRole" class="text-danger"></span>
+            </div>
+            <br />
+            <h6>Select tags</h6>
+            <div class="form-group">
+                @foreach (var checkbox in Model.checkboxes)
+                {
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" 
+                        type="checkbox" 
+                        value="@checkbox.description" 
+                        name="Tags"
+                        id="@checkbox.description"
+                        checked="@checkbox.isChecked">
+                        <label class="form-check-label" for="@checkbox.description">@checkbox.description</label>
+                    </div>
+                }
             </div>
             <br />
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>

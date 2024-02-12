@@ -1,6 +1,7 @@
-﻿@model IEnumerable<IOProject.Models.HelpProject>
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@using IOProject.Models
+@model IEnumerable<IOProject.Models.HelpProject>
+@inject SignInManager<SystemUser> SignInManager
+@inject UserManager<SystemUser> UserManager
 @{
     ViewData["Title"] = "Index";
 }

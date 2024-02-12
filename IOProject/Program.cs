@@ -16,7 +16,7 @@ builder.Services.AddDbContext<IOProjectDbContext>(options =>
 
 builder.Services.AddScoped<IHelpProjectRepos, HelpProjectRepos>();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddDefaultIdentity<SystemUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<IOProjectDbContext>();
 
@@ -70,13 +70,13 @@ using (var scope = app.Services.CreateScope())
 
 using (var scope = app.Services.CreateScope())
 {
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<SystemUser>>();
     string email = "admin@admin.com";
     string password = "Password1!";
 
     if(await userManager.FindByEmailAsync(email) == null)
     {
-        var user = new IdentityUser();
+        var user = new SystemUser();
         user.Email = email;
         user.UserName = email;
         await userManager.CreateAsync(user,password);

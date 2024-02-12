@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IOProject.Models;
-using Microsoft.AspNetCore.Hosting;
 
 //Controller only for showing projects. Everything is auto generated unless commented otherwise.
 namespace IOProject.Controllers
@@ -147,24 +146,6 @@ namespace IOProject.Controllers
         private bool HelpProjectExists(int id)
         {
             return _context.HelpProjects.Any(e => e.Id == id);
-        }
-
-        public IActionResult DownloadFile(String outputFilePath)
-        {
-
-            if (!System.IO.File.Exists(outputFilePath))
-            {
-                // Return a 404 Not Found error if the file does not exist
-                return NotFound();
-            }
-
-            var fileInfo = new System.IO.FileInfo(outputFilePath);
-            Response.ContentType = "application/pdf";
-            Response.Headers.Add("Content-Disposition", "attachment;filename=\"" + fileInfo.Name + "\"");
-            Response.Headers.Add("Content-Length", fileInfo.Length.ToString());
-
-            // Send the file to the client
-            return File(System.IO.File.ReadAllBytes(outputFilePath), "application/pdf", fileInfo.Name);
         }
     }
 }

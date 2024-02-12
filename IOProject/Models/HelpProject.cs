@@ -10,5 +10,6 @@
         public DateTime WhenCreated { get; set; }
         public string? Thumbnail { get; set; }
         public List<string>? FileAttachments { get; set; }
+        public List<string>? Tags { get; set; }
     }
 }
