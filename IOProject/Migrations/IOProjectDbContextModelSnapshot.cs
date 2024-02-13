@@ -57,10 +57,6 @@ namespace IOProject.Migrations
                     b.Property<DateTime>("WhenEnds")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("createdBy")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ownerID")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");

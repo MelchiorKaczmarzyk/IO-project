@@ -8,7 +8,6 @@ namespace IOProject.Models
         public string Title { get; set; } = string.Empty;
         public string ShortDescription { get; set; } = string.Empty;
         public string LongDescription { get; set; } = string.Empty;
-        public string createdBy { get; set; } = string.Empty; //to delete
         public DateTime WhenCreated { get; set; }
         public string? Thumbnail { get; set; }
         public List<string>? FileAttachments { get; set; }
