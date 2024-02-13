@@ -56,6 +56,34 @@ namespace IOProject.Controllers
         [HttpPost]
         public IActionResult DesignProject(HelpProjectViewModel model)
         {
+            model.Checkboxes = new List<Checkbox>
+            {
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Medical procedure"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Rehabilitation"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Natural disasters"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Help for refugees"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Cultural event"
+            },
+        };
             string uploadsFolder = Path.Combine(Enviroment.WebRootPath, "Files");
             if (ModelState.IsValid)
             {
