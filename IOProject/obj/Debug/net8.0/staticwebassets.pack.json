@@ -1,203 +1,111 @@
 {
   "Files": [
     {
-<<<<<<< Updated upstream
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png",
-      "PackagePath": "staticwebassets\\Files\\11e38bc1-2b98-4404-b376-8af0c6ec004a_2.png"
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\Files\\02667901-e98a-4454-9f53-2700006c2ef6_5.png",
+      "PackagePath": "staticwebassets\\Files\\02667901-e98a-4454-9f53-2700006c2ef6_5.png"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf",
-      "PackagePath": "staticwebassets\\Files\\6336395f-705d-4d3d-951c-ce60d0b66ced_Model (3).pdf"
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\Files\\1af66754-c5d4-45e4-95fa-56655323d91e_4.png",
+      "PackagePath": "staticwebassets\\Files\\1af66754-c5d4-45e4-95fa-56655323d91e_4.png"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf",
-      "PackagePath": "staticwebassets\\Files\\be1429d7-c6cc-44fb-a247-04427336eb32_Model (2).pdf"
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\Files\\263439e0-42cc-4693-a52a-46e8ecbb5ec6_3.png",
+      "PackagePath": "staticwebassets\\Files\\263439e0-42cc-4693-a52a-46e8ecbb5ec6_3.png"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png",
-      "PackagePath": "staticwebassets\\Files\\c4d8238b-b817-4296-a374-2b64b205eadd_1.png"
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\Files\\6ecde1d5-314b-4d60-8d06-b4a4bece310e_3.png",
+      "PackagePath": "staticwebassets\\Files\\6ecde1d5-314b-4d60-8d06-b4a4bece310e_3.png"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png",
-      "PackagePath": "staticwebassets\\Files\\c847a7ae-9af8-4810-b5ea-cbbb9aa78621_1.png"
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\Files\\841d9cd8-f58d-474f-bc1e-801e89751717_4.png",
+      "PackagePath": "staticwebassets\\Files\\841d9cd8-f58d-474f-bc1e-801e89751717_4.png"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\Files\\cdecc74c-fcdb-420e-85f7-229ffd964bd7_2.png",
+      "PackagePath": "staticwebassets\\Files\\cdecc74c-fcdb-420e-85f7-229ffd964bd7_2.png"
+    },
+    {
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-=======
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\Files\\092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png",
-      "PackagePath": "staticwebassets\\Files\\092c165d-84e5-4ba0-bf7c-4003c4d22ee4_Conceptualisation.png"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\Files\\76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png",
-      "PackagePath": "staticwebassets\\Files\\76f7e393-efdc-40b9-b5a9-ce3644fd49dc_5.png"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\Files\\9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png",
-      "PackagePath": "staticwebassets\\Files\\9e67e09f-e007-4c29-b34f-75e6d2ecb0e3_2.png"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "C:\\Users\\melch\\Source\\Repos\\IO-project-clone\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
->>>>>>> Stashed changes
+      "Id": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

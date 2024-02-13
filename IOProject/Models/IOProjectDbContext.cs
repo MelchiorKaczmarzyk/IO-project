@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IOProject.Models
 {
-    public class IOProjectDbContext : IdentityDbContext
+    public class IOProjectDbContext : IdentityDbContext<SystemUser>
     {
         public IOProjectDbContext(DbContextOptions<IOProjectDbContext> options) :
     base(options)

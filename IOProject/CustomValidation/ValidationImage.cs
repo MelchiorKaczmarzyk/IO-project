@@ -12,7 +12,6 @@ namespace IOProject.CustomValidation
             {
                 return true;
             }
-            //model.Thumbnail.ContentType.StartsWith("image")
             var image = value as IFormFile;
             if (image.ContentType.StartsWith("image"))
             {

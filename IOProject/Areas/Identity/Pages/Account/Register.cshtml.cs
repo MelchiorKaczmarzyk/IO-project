@@ -10,6 +10,8 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using IOProject.CustomValidation;
+using IOProject.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -24,19 +26,20 @@ namespace IOProject.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly IUserStore<IdentityUser> _userStore;
-        private readonly IUserEmailStore<IdentityUser> _emailStore;
+        private readonly SignInManager<SystemUser> _signInManager;
+        private readonly UserManager<SystemUser> _userManager;
+        private readonly IUserStore<SystemUser> _userStore;
+        private readonly IUserEmailStore<SystemUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
         public List<SelectListItem> Roles { get; }
+        public List<Checkbox> checkboxes { get; }
 
         public RegisterModel(
-            UserManager<IdentityUser> userManager,
-            IUserStore<IdentityUser> userStore,
-            SignInManager<IdentityUser> signInManager,
+            UserManager<SystemUser> userManager,
+            IUserStore<SystemUser> userStore,
+            SignInManager<SystemUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
@@ -52,7 +55,35 @@ namespace IOProject.Areas.Identity.Pages.Account
             new SelectListItem {Value = "Beneficiary", Text = "Beneficiary"},
             new SelectListItem {Value = "Benefactor", Text = "Benefactor"}
         };
-        }
+            checkboxes = new List<Checkbox>
+        {
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Medical procedure"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Rehabilitation"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Natural disasters"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Help for refugees"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Cultural event"
+            }
+        };
+    }
 
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -79,6 +110,8 @@ namespace IOProject.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
+            [ValidationTags(ErrorMessage = "Select at least one tag")]
+            public List<string> Tags;
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -115,15 +148,19 @@ namespace IOProject.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
-
-        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+        public Task setTagsAsync (SystemUser user, List<string> Tags)
+        {
+            user.tags = Tags;
+            return Task.CompletedTask;
+        }
+        public async Task<IActionResult> OnPostAsync(List<string> Tags, string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
+                await setTagsAsync(user, Tags);
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
@@ -165,27 +202,27 @@ namespace IOProject.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        private SystemUser CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<SystemUser>();
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(SystemUser)}'. " +
+                    $"Ensure that '{nameof(SystemUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
 
-        private IUserEmailStore<IdentityUser> GetEmailStore()
+        private IUserEmailStore<SystemUser> GetEmailStore()
         {
             if (!_userManager.SupportsUserEmail)
             {
                 throw new NotSupportedException("The default UI requires a user store with email support.");
             }
-            return (IUserEmailStore<IdentityUser>)_userStore;
+            return (IUserEmailStore<SystemUser>)_userStore;
         }
     }
 }

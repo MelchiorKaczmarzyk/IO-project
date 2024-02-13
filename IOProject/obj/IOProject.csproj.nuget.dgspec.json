@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj": {}
+    "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\IOProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj": {
+    "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\IOProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj",
+        "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\IOProject.csproj",
         "projectName": "IOProject",
-        "projectPath": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\IOProject.csproj",
+        "projectPath": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\IOProject.csproj",
         "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melch\\source\\repos\\IOProject\\IOProject\\obj\\",
-=======
-    "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj",
-        "projectName": "IOProject",
-        "projectPath": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\IOProject.csproj",
-        "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melch\\source\\repos\\IO-project-clone\\IOProject\\obj\\",
->>>>>>> Stashed changes
+        "outputPath": "C:\\Users\\melch\\Source\\Repos\\IO-project-3\\IOProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,29 +50,29 @@
             },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

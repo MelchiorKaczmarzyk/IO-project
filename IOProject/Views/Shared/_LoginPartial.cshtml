@@ -1,12 +1,16 @@
-﻿@using IOProject.ViewModels
+﻿@using IOProject.Models
+@using IOProject.ViewModels
 @using Microsoft.AspNetCore.Identity
 
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<SystemUser> SignInManager
+@inject UserManager<SystemUser> UserManager
 
 <ul class="navbar-nav">
     <li class="nav-item">
-        <a class="nav-link text-dark" id="View projects" asp-controller="HelpProject" asp-action="DesignProject">View projects</a>
+        <a class="nav-link text-dark" id="View projects" asp-controller="HelpProjectsPrint" asp-action="Index">View projects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" id="Search projects" asp-controller="HelpProjectsPrint" asp-action="ShowSearchForm">Search</a>
     </li>
 @if (SignInManager.IsSignedIn(User))
 {

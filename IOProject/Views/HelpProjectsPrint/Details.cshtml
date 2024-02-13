@@ -1,0 +1,66 @@
+﻿@model IOProject.Models.HelpProject
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h1>@Html.DisplayFor(model => model.Title)</h1>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LongDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LongDescription)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WhenCreated)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WhenCreated)
+        </dd>
+        @if (Model.Tags != null)
+        {
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tags)
+        </dt>
+        <dd class="col-sm-10"></dd>
+            @foreach (var tag in Model.Tags)
+            {
+                <dd class="col-sm-10">
+                    @tag
+                </dd>
+            }
+        }
+        <dd class="col-sm-10"></dd>
+        <dt class="col-sm-2">
+            Thumbnail
+        </dt>
+        <dd>
+            @{
+                @*To properly display thumbnail image we need to identify its relative path in wwwroot folder.*@
+                @inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
+                string? relativeFileName = Model.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
+            }
+            <img src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> @*TODO? possibility to use CSS to properly contain the image*@
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FileAttachments)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FileAttachments)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List of all active projects</a>
+</div>

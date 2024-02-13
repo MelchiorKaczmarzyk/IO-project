@@ -35,6 +35,22 @@
                     </textarea>
                 </div>
                 <br />
+                Tags
+                <span asp-validation-for="Tags" class="text-danger"></span>
+                <div class="form-group">
+                    @foreach (var checkbox in Model.Checkboxes)
+                    {
+                        <div class="form-check mb-3">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   value="@checkbox.description"
+                                   name="Tags"
+                                   id="@checkbox.description"
+                                   checked="@checkbox.isChecked">
+                            <label class="form-check-label" for="@checkbox.description">@checkbox.description</label>
+                        </div>
+                    }
+                </div>
                 <label class="custom-file-label">Thumbnail </label>
                 <span asp-validation-for="Thumbnail" class="text-danger"></span>
                 <input asp-for="Thumbnail" class="form-control custom-file-input" />
