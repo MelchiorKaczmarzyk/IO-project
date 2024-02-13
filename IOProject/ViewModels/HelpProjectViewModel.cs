@@ -35,9 +35,9 @@ namespace IOProject.ViewModels
 
         public List<Checkbox> Checkboxes;
 
-        [Required(ErrorMessage ="Closing date is required")]
-        [Display(Name ="When Ends")]
-        public DateTime WhenEnds { get; set; }
+        [Required(ErrorMessage = "Closing date is required")]
+        [Display(Name = "When Ends")]
+        public DateTime WhenEnds { get; set; } = DateTime.Now;
 
         [Required(ErrorMessage ="Fundraising goal is required.")]
         [Display(Name = "Fundraising goal")]
