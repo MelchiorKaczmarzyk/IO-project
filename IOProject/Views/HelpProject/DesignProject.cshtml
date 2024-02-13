@@ -50,6 +50,16 @@
                         </div>
                     }
                 </div>
+                <div class="form-group">
+                    <label asp-for="WhenEnds" class="control-label"></label>
+                    <input asp-for="WhenEnds" class="form-control" />
+                    <span asp-validation-for="WhenEnds"  class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label asp-for="targetAmount" class="form-label"></label>
+                    <span asp-validation-for="targetAmount" class="text-danger"></span>
+                    <input asp-for="targetAmount" class="form-control" />
+                </div>
                 <label class="custom-file-label">Thumbnail </label>
                 <span asp-validation-for="Thumbnail" class="text-danger"></span>
                 <input asp-for="Thumbnail" class="form-control custom-file-input" />

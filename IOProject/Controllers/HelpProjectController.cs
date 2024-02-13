@@ -5,6 +5,8 @@ using Microsoft.Extensions.Hosting;
 using IOProject.ViewModels;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace IOProject.Controllers
 {
@@ -90,13 +92,15 @@ namespace IOProject.Controllers
                 }
                 HelpProject newHelpProject = new HelpProject
                 {
+                    ownerID = User.FindFirstValue(ClaimTypes.NameIdentifier),
                     Title = model.Title,
                     ShortDescription = model.ShortDescription,
                     LongDescription = model.LongDescription,
                     WhenCreated = DateTime.Now,
+                    WhenEnds = model.WhenEnds,
+                    targetAmount = model.targetAmount,
                     Thumbnail = filePath,
                     FileAttachments = fileAttachments,
-                    createdBy = User.Identity.Name,
                     Tags = model.Tags
                 };
                 _helpProjectRepos.AddHelpProject(newHelpProject);

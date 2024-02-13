@@ -33,5 +33,13 @@ namespace IOProject.ViewModels
         public List<string>? Tags { get; set;}
 
         public List<Checkbox> Checkboxes;
+
+        [Required(ErrorMessage ="Closing date is required")]
+        [Display(Name ="WhenEnds")]
+        public DateTime WhenEnds { get; set; }
+
+        [Required(ErrorMessage ="Fundraising goal is required.")]
+        [Display(Name ="TargetAmount")]
+        public uint targetAmount { get; set; }
     }
 }
