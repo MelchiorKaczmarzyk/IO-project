@@ -30,19 +30,17 @@ namespace IOProject.ViewModels
 
         public List<IFormFile>? Attachments {get; set;}
 
-
         [ValidationTags(ErrorMessage = "Choose at least one tag")]
-
         public List<string>? Tags { get; set;}
 
         public List<Checkbox> Checkboxes;
 
         [Required(ErrorMessage ="Closing date is required")]
-        [Display(Name ="WhenEnds")]
+        [Display(Name ="When Ends")]
         public DateTime WhenEnds { get; set; }
 
         [Required(ErrorMessage ="Fundraising goal is required.")]
-        [Display(Name ="TargetAmount")]
+        [Display(Name = "Fundraising goal")]
         public uint targetAmount { get; set; }
     }
 }

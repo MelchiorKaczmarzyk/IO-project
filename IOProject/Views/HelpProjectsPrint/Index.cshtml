@@ -54,11 +54,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.WhenCreated)
             </td>
-            
-            <td>
+
+				<td>
+					<a asp-action="Details" asp-route-id="@item.Id">Details</a>
                 @if (SignInManager.IsSignedIn(User))
                 {
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
                     //Tylko admin i organizacja, KTÓRA DODAŁA PROJEKT powinna móc go edytować i usunąć
                     @if(User.IsInRole("Admin") ||
                        (User.IsInRole("Organisation") && User.FindFirstValue(ClaimTypes.NameIdentifier) == item.ownerID))

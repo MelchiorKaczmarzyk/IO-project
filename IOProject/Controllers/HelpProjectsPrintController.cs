@@ -164,12 +164,12 @@ namespace IOProject.Controllers
                 return File(System.IO.File.ReadAllBytes(outputFilePath), "application/pdf");
             }
             var fileInfo = new System.IO.FileInfo(outputFilePath);
-            Response.ContentType = "application/pdf";
+            Response.ContentType = "application/"+fileExtension;
             Response.Headers.Append("Content-Disposition", "attachment;filename=\"" + fileInfo.Name + "\"");
             Response.Headers.Append("Content-Length", fileInfo.Length.ToString());
             
             // Send the file to the client
-            return File(System.IO.File.ReadAllBytes(outputFilePath), "application/pdf", fileInfo.Name);
+            return File(System.IO.File.ReadAllBytes(outputFilePath), "application/" + fileExtension, fileInfo.Name);
         }
     }
 }
