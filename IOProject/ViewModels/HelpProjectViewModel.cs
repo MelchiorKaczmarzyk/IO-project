@@ -28,7 +28,8 @@ namespace IOProject.ViewModels
         [ValidationImage(ErrorMessage = "File should be an image")]
         public IFormFile? Thumbnail { get; set; }
 
-        public List<IFormFile>? Attachments {get; set;}
+		[ValidationAttachments(ErrorMessage = "One of files is too big or is of invalid type")]
+		public List<IFormFile>? Attachments {get; set;}
 
         [ValidationTags(ErrorMessage = "Choose at least one tag")]
         public List<string>? Tags { get; set;}
