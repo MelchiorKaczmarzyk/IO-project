@@ -37,6 +37,7 @@
             </div>
             <br />
             <h6>Select tags</h6>
+            <span asp-validation-for="@(Model.Input.Tags)" class="text-danger"></span>
             <div class="form-group">
                 @foreach (var checkbox in Model.checkboxes)
                 {

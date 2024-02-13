@@ -19,19 +19,30 @@ namespace IOProject.ViewModels
 
         [Required(ErrorMessage = "Long description is required")]
         [Display(Name = "Long description")]
+        [StringLength(2000)]
         public string LongDescription { get; set; } = string.Empty;
 
         public DateTime WhenCreated { get; set; }
 
-        //[ValidationSize(ErrorMessage = "File is to big")]
+        [Required(ErrorMessage = "Thumbnail is required")]
         [ValidationImage(ErrorMessage = "File should be an image")]
         public IFormFile? Thumbnail { get; set; }
 
-        //[ValidationAttachments(ErrorMessage = "One of the files is too big or has inproper type")]
         public List<IFormFile>? Attachments {get; set;}
+
+
+        [ValidationTags(ErrorMessage = "Choose at least one tag")]
 
         public List<string>? Tags { get; set;}
 
         public List<Checkbox> Checkboxes;
+
+        [Required(ErrorMessage ="Closing date is required")]
+        [Display(Name ="WhenEnds")]
+        public DateTime WhenEnds { get; set; }
+
+        [Required(ErrorMessage ="Fundraising goal is required.")]
+        [Display(Name ="TargetAmount")]
+        public uint targetAmount { get; set; }
     }
 }

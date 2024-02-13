@@ -54,11 +54,23 @@ namespace IOProject.Migrations
                     b.Property<DateTime>("WhenCreated")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("WhenEnds")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("createdBy")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ownerID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<long>("targetAmount")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ownerID");
 
                     b.ToTable("HelpProjects");
                 });
@@ -268,6 +280,17 @@ namespace IOProject.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("IOProject.Models.HelpProject", b =>
+                {
+                    b.HasOne("IOProject.Models.SystemUser", "owner")
+                        .WithMany("HelpProjects")
+                        .HasForeignKey("ownerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("owner");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -317,6 +340,11 @@ namespace IOProject.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("IOProject.Models.SystemUser", b =>
+                {
+                    b.Navigation("HelpProjects");
                 });
 #pragma warning restore 612, 618
         }

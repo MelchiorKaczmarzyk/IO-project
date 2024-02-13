@@ -5,6 +5,8 @@ using Microsoft.Extensions.Hosting;
 using IOProject.ViewModels;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace IOProject.Controllers
 {
@@ -54,6 +56,34 @@ namespace IOProject.Controllers
         [HttpPost]
         public IActionResult DesignProject(HelpProjectViewModel model)
         {
+            model.Checkboxes = new List<Checkbox>
+            {
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Medical procedure"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Rehabilitation"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Natural disasters"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Help for refugees"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Cultural event"
+            },
+        };
             string uploadsFolder = Path.Combine(Enviroment.WebRootPath, "Files");
             if (ModelState.IsValid)
             {
@@ -90,13 +120,15 @@ namespace IOProject.Controllers
                 }
                 HelpProject newHelpProject = new HelpProject
                 {
+                    ownerID = User.FindFirstValue(ClaimTypes.NameIdentifier),
                     Title = model.Title,
                     ShortDescription = model.ShortDescription,
                     LongDescription = model.LongDescription,
                     WhenCreated = DateTime.Now,
+                    WhenEnds = model.WhenEnds,
+                    targetAmount = model.targetAmount,
                     Thumbnail = filePath,
                     FileAttachments = fileAttachments,
-                    createdBy = User.Identity.Name,
                     Tags = model.Tags
                 };
                 _helpProjectRepos.AddHelpProject(newHelpProject);
