@@ -11,7 +11,7 @@
         "projectName": "IOProject",
         "projectPath": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\IOProject.csproj",
         "packagesPath": "C:\\Users\\melch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melch\\Source\\Repos\\IO-project-3\\IOProject\\obj\\",
+        "outputPath": "C:\\Users\\melch\\source\\repos\\IO-project-3\\IOProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
