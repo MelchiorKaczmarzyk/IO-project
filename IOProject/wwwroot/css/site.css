@@ -140,3 +140,13 @@ body {
     white-space: nowrap;
     line-height: 60px;
 }
+
+.thumbnail-image-small {
+    width: 100px;
+    height: 100px;
+}
+
+.thumbnail-image-big {
+    width: 250px;
+    height: 250px;
+}

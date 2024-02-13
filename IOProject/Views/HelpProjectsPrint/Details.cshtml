@@ -49,7 +49,7 @@
                 @inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
                 string? relativeFileName = Model.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
             }
-            <img src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> @*TODO? use CSS to properly contain the image*@
+            <img class="thumbnail-image-big" src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> 
         </dd>
 
         <dt class="col-sm-2">
