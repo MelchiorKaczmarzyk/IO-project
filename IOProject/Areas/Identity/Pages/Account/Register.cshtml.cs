@@ -10,9 +10,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
-
 using IOProject.CustomValidation;
-
 using IOProject.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -23,6 +21,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace IOProject.Areas.Identity.Pages.Account
 {
@@ -105,13 +105,13 @@ namespace IOProject.Areas.Identity.Pages.Account
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
         public IList<AuthenticationScheme> ExternalLogins { get; set; }
-
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
         public class InputModel
         {
+            [Required]
             [ValidationTags(ErrorMessage = "Select at least one tag")]
             public List<string> Tags;
             /// <summary>
@@ -159,6 +159,8 @@ namespace IOProject.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            if (Tags.IsNullOrEmpty())
+                ModelState.AddModelError(string.Empty, "Select at leas one tag");
             if (ModelState.IsValid)
             {
                 var user = CreateUser();

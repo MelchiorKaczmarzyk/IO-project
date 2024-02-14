@@ -28,20 +28,20 @@
         </dd>
         @if (Model.Tags != null)
         {
-            <dt class="col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Tags)
-            </dt>
+        </dt>
+        <dd class="col-sm-10"></dd>
             @foreach (var tag in Model.Tags)
             {
-                if (tag != Model.Tags.First()) {<dt class="col-sm-2"></dt> }
                 <dd class="col-sm-10">
                     @tag
                 </dd>
-			}
-		}
-
+            }
+        }
+        <dd class="col-sm-10"></dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Thumbnail)
+            Thumbnail
         </dt>
         <dd>
             @{
@@ -49,20 +49,14 @@
                 @inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
                 string? relativeFileName = Model.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
             }
-            <img src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> @*TODO? use CSS to properly contain the image*@
+            <img src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> @*TODO? possibility to use CSS to properly contain the image*@
         </dd>
 
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.FileAttachments)
         </dt>
         <dd class="col-sm-10">
-            @foreach (var item in Model.FileAttachments)
-            {
-                string? PdfName = item?.TrimStart(env.WebRootPath.ToCharArray());
-                PdfName = PdfName?.TrimStart("//Files\\".ToCharArray());
-                <a asp-action="DownloadFile" asp-route-outputFilePath="@item" target="_blank"> @PdfName </a>
-                <br />
-            }
+            @Html.DisplayFor(model => model.FileAttachments)
         </dd>
     </dl>
 </div>

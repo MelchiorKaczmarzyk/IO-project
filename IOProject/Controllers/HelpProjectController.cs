@@ -54,7 +54,54 @@ namespace IOProject.Controllers
         [HttpPost]
         public IActionResult DesignProject(HelpProjectViewModel model)
         {
-            model.Checkboxes = new List<Checkbox>
+            string uploadsFolder = Path.Combine(Enviroment.WebRootPath, "Files");
+            if (ModelState.IsValid)
+            {
+                var fileAttachments = new List<string>();
+                string filePath = string.Empty;
+                string uniqueFileName = string.Empty;
+
+                if (!model.Attachments.IsNullOrEmpty())
+                {
+                    foreach (var attachment in model.Attachments)
+                    {
+                        if (attachment != null)
+                        {
+                            var lol = attachment.ContentType;
+                            uniqueFileName = Guid.NewGuid().ToString() + "_" +
+                                attachment.FileName;
+                            filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                            attachment.CopyTo(new FileStream(filePath, FileMode.Create));
+                            fileAttachments.Add(filePath);
+                        }
+                    }
+                }
+                if (model.Thumbnail != null &&
+                model.Thumbnail.ContentType.StartsWith("image"))
+                {
+                    uniqueFileName = Guid.NewGuid().ToString() + "_" +
+                    model.Thumbnail.FileName;
+                    filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                    model.Thumbnail.CopyTo(new FileStream(filePath, FileMode.Create));
+                }
+                HelpProject newHelpProject = new HelpProject
+                {
+                    Title = model.Title,
+                    ShortDescription = model.ShortDescription,
+                    LongDescription = model.LongDescription,
+                    WhenCreated = DateTime.Now,
+                    Thumbnail = filePath,
+                    FileAttachments = fileAttachments,
+                    createdBy = User.Identity.Name,
+                    Tags = model.Tags
+                };
+                _helpProjectRepos.AddHelpProject(newHelpProject);
+                return RedirectToAction("ProjectAdded");
+            }
+
+            else
+            {
+                model.Checkboxes = new List<Checkbox>
             {
             new Checkbox()
             {
@@ -82,57 +129,6 @@ namespace IOProject.Controllers
                 description = "Cultural event"
             },
         };
-            string uploadsFolder = Path.Combine(Enviroment.WebRootPath, "Files");
-            if (ModelState.IsValid)
-            {
-                var fileAttachments = new List<string>();
-                string filePath = string.Empty;
-                string uniqueFileName = string.Empty;
-
-                if (!model.Attachments.IsNullOrEmpty())
-                {
-                    foreach (var attachment in model.Attachments)
-                    {
-                        if (attachment != null)
-                        {
-                            var lol = attachment.ContentType;
-                            uniqueFileName = Guid.NewGuid().ToString() + "_" +
-                                attachment.FileName;
-                            filePath = Path.Combine(uploadsFolder, uniqueFileName);
-                            Stream stream = new FileStream(filePath, FileMode.Create);
-                            attachment.CopyTo(stream);
-                            stream.Close();
-                            fileAttachments.Add(filePath);
-                        }
-                    }
-                }
-                if (model.Thumbnail != null &&
-                model.Thumbnail.ContentType.StartsWith("image"))
-                {
-                    uniqueFileName = Guid.NewGuid().ToString() + "_" +
-                    model.Thumbnail.FileName;
-                    filePath = Path.Combine(uploadsFolder, uniqueFileName);
-                    Stream stream = new FileStream(filePath, FileMode.Create);
-                    model.Thumbnail.CopyTo(stream);
-                    stream.Close();
-                }
-                HelpProject newHelpProject = new HelpProject
-                {
-                    Title = model.Title,
-                    ShortDescription = model.ShortDescription,
-                    LongDescription = model.LongDescription,
-                    WhenCreated = DateTime.Now,
-                    Thumbnail = filePath,
-                    FileAttachments = fileAttachments,
-                    createdBy = User.Identity.Name,
-                    Tags = model.Tags
-                };
-                _helpProjectRepos.AddHelpProject(newHelpProject);
-                return RedirectToAction("ProjectAdded");
-            }
-
-            else
-            {
                 return View(model);
             }
             

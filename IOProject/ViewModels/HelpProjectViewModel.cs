@@ -30,9 +30,7 @@ namespace IOProject.ViewModels
 
         public List<IFormFile>? Attachments {get; set;}
 
-
         [ValidationTags(ErrorMessage = "Choose at least one tag")]
-
         public List<string>? Tags { get; set;}
 
         public List<Checkbox> Checkboxes;
