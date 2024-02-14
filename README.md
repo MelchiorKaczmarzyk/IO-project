@@ -16,7 +16,7 @@ W naszym systemie wyróżniamy cztery główne kategorie użytkowników:
     - Aplikuje do projektów o pomoc
 - Administrator
     - Nadzoruje działaniem akcji pomocowych
-    - Ma pełen dostęp do funkcji strony
+    - Ma pełen dostęp do funkcji strony <br>
   Każdy użytkownik ma również możliwość zarządzania własnym kontem, w tym zmiany hasła, adresu e-mail oraz włączenia weryfikacji dwuetapowej.
 - ### Personalizowane Tagi
 Dzięki personalizowanym tagom, użytkownicy otrzymują spersonalizowaną listę projektów pomocowych, dopasowaną do ich zainteresowań charytatywnych. Podczas rejestracji mają możliwość wybrania tagów odpowiadających akcjom charytatywnym, które ich interesują.
