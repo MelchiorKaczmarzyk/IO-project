@@ -1,13 +1,13 @@
-# Projekt z przedmiotu Inżynieria Oprogramowania
-## Temat projektu: Strona Akcji Dobroczynnych i Charytatywnych
-Strona umożliwia tworzenie, przeglądanie oraz aplikowanie do projektów zbiorowych dla celów Charytatywnych. 
+# Witamy w Projekcie Akcji Dobroczynnych i Charytatywnych
+## Cel Projektu
+Nasz projekt to platforma wspierająca organizacje charytatywne i osoby potrzebujące, umożliwiając im tworzenie, przeglądanie i aplikowanie do projektów zbiorowych dla celów charytatywnych.
 
 
 
-### Rodzaje użytkowników
-Użytkownicy dzielą się na cztery kategorie:
+### Typy użytkowników
+W naszym systemie wyróżniamy cztery główne kategorie użytkowników:
 - Beneficjent
-    - Wysyła podanie o pomoc
+    - Może zgłaszać prośby o pomoc
     - Zdobywa kontakty do organizacji
 - Organizacja
     - Tworzy nowe akcje pomocowe
@@ -16,11 +16,10 @@ Użytkownicy dzielą się na cztery kategorie:
     - Aplikuje do projektów o pomoc
 - Administrator
     - Nadzoruje działaniem akcji pomocowych
-    - Ma dostęp do wszystkich funkcji na stronie
-  Każdy użytkownik ma dostęp do podstawowych funkcji zarządzania własnym kontem, takich jak zmiana hasła, e-maila oraz włączenie weryfikacji dwuetapowej
-- ### Tagi
-Wgląd na listę projektów pomocowych jest spersonalizowana dla każdego użytkownika za pomocą tagów.
-Użytkownicy mogą w trakcie rejestracji wybrać tagi odpowiadające akcjom charytatywnym, jakie ich interesują. 
+    - Ma pełen dostęp do funkcji strony
+  Każdy użytkownik ma również możliwość zarządzania własnym kontem, w tym zmiany hasła, adresu e-mail oraz włączenia weryfikacji dwuetapowej.
+- ### Personalizowane Tagi
+Dzięki personalizowanym tagom, użytkownicy otrzymują spersonalizowaną listę projektów pomocowych, dopasowaną do ich zainteresowań charytatywnych. Podczas rejestracji mają możliwość wybrania tagów odpowiadających akcjom charytatywnym, które ich interesują.
 
 - ### Tworzenie projektu pomocowego
 Projekt pomocowy musi zawierać:
@@ -29,8 +28,9 @@ Projekt pomocowy musi zawierać:
 - Opis szczegółowy
 - Datę zakończenia projektu
 - Zdjęcie jako forma miniaturki <br>
+
 Do projektu również można zamieścić załączniki. 
 Projekt można edytować oraz usunąć.
 
 - ### Oferty pomocy
-Oferty pomocy polegają na wysłaniu podania, składającego się z opisu pomocy oraz opcjonalnych załączników. 
+Oferty pomocy polegają na wysyłaniu podań, zawierających opis proponowanej pomocy oraz opcjonalne załączniki.
