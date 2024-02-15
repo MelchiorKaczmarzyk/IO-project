@@ -14,5 +14,6 @@ namespace IOProject.Models
 
         public DbSet<HelpProject> HelpProjects { get; set; }
         public DbSet<IOProject.Models.Application> Application { get; set; } = default!;
+        public DbSet<IOProject.Models.HelpOffer> HelpOffer { get; set; } = default!;
     }
 }
