@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IOProject.Models;
+using System.Security.Claims;
 
 //Controller only for showing projects. Everything is auto generated unless commented otherwise.
 namespace IOProject.Controllers
@@ -33,6 +34,11 @@ namespace IOProject.Controllers
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
             return View("Index", await _context.HelpProjects.Where(j => j.Title.Contains(SearchPhrase)).ToListAsync());
+        }
+
+        public async Task<IActionResult> OrganisationProjects()
+        {
+            return View("Index", await _context.HelpProjects.Where(j => j.OwnerID.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))).ToListAsync());
         }
 
         // GET: HelpProjectsPrint/Details/5
@@ -80,8 +86,9 @@ namespace IOProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ShortDescription,LongDescription,WhenCreated,Thumbnail,FileAttachments")] HelpProject helpProject)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ShortDescription,LongDescription,WhenCreated,Thumbnail,FileAttachments,Tags,WhenEnds,OwnerID,targetAmount")] HelpProject helpProject)
         {
+            helpProject.OwnerID = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (id != helpProject.Id)
             {
                 return NotFound();
@@ -128,6 +135,19 @@ namespace IOProject.Controllers
             return View(helpProject);
         }
 
+        //GET
+        public async Task<IActionResult> Deactivate(int? id)
+        {
+            var helpProject = await _context.HelpProjects.FindAsync(id);
+            if (helpProject != null)
+            {
+                helpProject.isActive = false;
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
         // POST: HelpProjectsPrint/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -143,9 +163,47 @@ namespace IOProject.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpPost, ActionName("Deactivate")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Deactivate(int id)
+        {
+            var helpProject = await _context.HelpProjects.FindAsync(id);
+            if (helpProject != null)
+            {
+                helpProject.isActive = false;
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
         private bool HelpProjectExists(int id)
         {
             return _context.HelpProjects.Any(e => e.Id == id);
+        }
+
+        public IActionResult DownloadFile(String outputFilePath)
+        {
+
+            if (!System.IO.File.Exists(outputFilePath))
+            {
+                // Return a 404 Not Found error if the file does not exist
+                return NotFound();
+            }
+
+            string fileExtension = Path.GetExtension(outputFilePath);
+            if (fileExtension == ".pdf")
+            {
+                //open pdf in new tab
+                return File(System.IO.File.ReadAllBytes(outputFilePath), "application/pdf");
+            }
+            var fileInfo = new System.IO.FileInfo(outputFilePath);
+            Response.ContentType = "application/"+fileExtension;
+            Response.Headers.Append("Content-Disposition", "attachment;filename=\"" + fileInfo.Name + "\"");
+            Response.Headers.Append("Content-Length", fileInfo.Length.ToString());
+            
+            // Send the file to the client
+            return File(System.IO.File.ReadAllBytes(outputFilePath), "application/" + fileExtension, fileInfo.Name);
         }
     }
 }

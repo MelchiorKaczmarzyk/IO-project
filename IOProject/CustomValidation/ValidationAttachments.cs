@@ -18,12 +18,11 @@ namespace IOProject.CustomValidation
             var attachments = value as List<IFormFile>;
             foreach (var attachment in attachments) 
             {
-                //Nie można dodać exe tylko
-                if(attachment.Length > 100000000 /*&& plik nie jest wykonywalny*/) { return false; }
+                //Check size and file extension (don't allow .exe)
+                string fileExtension = Path.GetExtension(attachment.FileName);
+                if(attachment.Length > 100000000 || fileExtension==".exe") { return false; }
             }
             return true;
-            //if (image.ContentType.StartsWith("image")) {}
-            
         }
 
         public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)

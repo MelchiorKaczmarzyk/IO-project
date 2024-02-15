@@ -1,9 +1,12 @@
 ﻿@model IOProject.Models.HelpProject
-
+@using IOProject.Models
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
 @{
     ViewData["Title"] = "Details";
 }
-
+@inject SignInManager<SystemUser> SignInManager
+@inject UserManager<SystemUser> UserManager
 <div>
     <h1>@Html.DisplayFor(model => model.Title)</h1>
     <hr />
@@ -15,33 +18,33 @@
             @Html.DisplayFor(model => model.ShortDescription)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.LongDescription)
+            @Html.DisplayNameFor(model => model.WhenEnds)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.LongDescription)
+            @Html.DisplayFor(model => model.WhenEnds)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.WhenCreated)
+            @Html.DisplayNameFor(model => model.targetAmount)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.WhenCreated)
+            @Html.DisplayFor(model => model.targetAmount)$
         </dd>
         @if (Model.Tags != null)
         {
-        <dt class="col-sm-2">
+            <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Tags)
-        </dt>
-        <dd class="col-sm-10"></dd>
+            </dt>
             @foreach (var tag in Model.Tags)
             {
+                if (tag != Model.Tags.First()) {<dt class="col-sm-2"></dt> }
                 <dd class="col-sm-10">
                     @tag
                 </dd>
-            }
-        }
-        <dd class="col-sm-10"></dd>
+			}
+		}
+
         <dt class="col-sm-2">
-            Thumbnail
+            @Html.DisplayNameFor(model => model.Thumbnail)
         </dt>
         <dd>
             @{
@@ -49,18 +52,52 @@
                 @inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
                 string? relativeFileName = Model.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
             }
-            <img src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> @*TODO? possibility to use CSS to properly contain the image*@
+            <img class="thumbnail-image-big" src="@Url.Content("~/"+relativeFileName)" alt="Couldn't display image!" /> 
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LongDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LongDescription)
         </dd>
 
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.FileAttachments)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.FileAttachments)
+            @foreach (var item in Model.FileAttachments)
+            {
+                string? PdfName = item?.TrimStart(env.WebRootPath.ToCharArray());
+                PdfName = PdfName?.TrimStart("//Files\\".ToCharArray());
+                <a asp-action="DownloadFile" asp-route-outputFilePath="@item" target="_blank"> @PdfName </a>
+                <br />
+            }
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @if (User.IsInRole("Beneficiary") || User.IsInRole("Admin"))
+        {
+            <h5>
+                <a asp-controller="Applications" asp-action="Create" asp-route-ProjectID="@Model?.Id">Apply</a>
+            </h5>
+            <br />
+        }
+        @if (User.IsInRole("Organisation") && User.FindFirstValue(ClaimTypes.NameIdentifier) == Model.OwnerID || User.IsInRole("Admin"))
+        {
+            <h5>
+            <a asp-controller="Applications" asp-action="ShowProjectApplications" asp-route-HelpProjectID="@Model?.Id">Look through applications</a>
+            </h5>
+            <br />
+        }
+    }
+    
+    @*<a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |*@
+    <h6>
     <a asp-action="Index">Back to List of all active projects</a>
+    </h6>
+    
 </div>

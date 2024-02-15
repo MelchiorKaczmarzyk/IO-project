@@ -1,4 +1,5 @@
 ﻿@using IOProject.Models
+@using System.Security.Claims
 @model IEnumerable<IOProject.Models.HelpProject>
 @inject SignInManager<SystemUser> SignInManager
 @inject UserManager<SystemUser> UserManager
@@ -22,48 +23,76 @@
                 @Html.DisplayNameFor(model => model.ShortDescription)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.LongDescription)
+                @Html.DisplayNameFor(model => model.targetAmount)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.WhenCreated)
+                @Html.DisplayNameFor(model => model.Tags)
             </th>
-            <th></th>
+            <th>
+                More
+            </th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var project in Model.Where(p => p.isActive == true)) {
 			<tr>
             <td>
-            @Html.DisplayFor(modelItem => item.Title)
+            @Html.DisplayFor(modelItem => project.Title)
 			</td>
 				<td>
                     @{
                         @*To properly display thumbnail image we need to identify its relative path in wwwroot folder.*@
                     @inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
-                        string? relativeFileName = item.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
+                        string? relativeFileName = project.Thumbnail?.TrimStart(env.WebRootPath.ToCharArray());
                     }
-                    <img src="@Url.Content("~/"+relativeFileName)" alt="" /> @*TODO? possibility to use CSS to properly contain the image*@
+                    <img class="thumbnail-image-small" src="@Url.Content("~/"+relativeFileName)" alt="" />
                 </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ShortDescription)
+                @Html.DisplayFor(modelItem => project.ShortDescription)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.LongDescription)
+                @Html.DisplayFor(modelItem => project.targetAmount)$
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.WhenCreated)
+            <ul>
+             @{
+                var userTags = new List<string>();
+                var currentUser = UserManager.Users.FirstOrDefault(u => u.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+                if (currentUser != null)
+                {
+                    userTags = currentUser.tags;
+                }
+             }
+
+              @foreach (var tag in project.Tags)
+               {
+
+                if (currentUser != null && currentUser.Email != "admin@admin.com" && 
+                userTags.Count != 0 && userTags.Contains(tag))
+                {
+                    <li id="tag"><b>@tag</b></li>
+                }
+                else
+                {
+                    <li id="tag">@tag</li>
+                }
+               
+             }
+            </ul>
             </td>
-            
-            <td>
+			<td>
+					<a asp-action="Details" asp-route-id="@project.Id">Details</a>
                 @if (SignInManager.IsSignedIn(User))
                 {
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
                     //Tylko admin i organizacja, KTÓRA DODAŁA PROJEKT powinna móc go edytować i usunąć
-                    @if(User.IsInRole("Admin") || 
-                    (User.IsInRole("Organisation") && User.Identity.Name == item.createdBy))
+                    @if(User.IsInRole("Admin") ||
+                       (User.IsInRole("Organisation") && User.FindFirstValue(ClaimTypes.NameIdentifier) == project.OwnerID))
                     {
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Deactivate" asp-route-id="@project.Id">Deactivate</a>
+                    }
+                    @if(User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@project.Id">Delete</a>
                     }
                 }
             </td>
