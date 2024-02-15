@@ -94,6 +94,14 @@
             <br />
         }
     }
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @if (User.IsInRole("Benefactor") || User.IsInRole("Admin"))
+        {
+            <a asp-controller="HelpOffers" asp-action="helpProject" asp-route-id="@Model?.Id">Support project</a>
+            <br />
+        }
+    }
     
     @*<a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |*@
     <h6>

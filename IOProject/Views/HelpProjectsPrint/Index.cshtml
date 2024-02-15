@@ -34,7 +34,8 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var project in Model.Where(p => p.isActive == true).OrderByDescending(p => p.WhenCreated)) {
+        @foreach (var project in Model.Where(p => p.isActive == true).OrderByDescending(p => p.WhenCreated))
+        {
 			<tr>
             <td>
             @Html.DisplayFor(modelItem => project.Title)
@@ -67,8 +68,7 @@
               @foreach (var tag in project.Tags)
                {
 
-                if (currentUser != null && currentUser.Email != "admin@admin.com" && 
-                userTags.Count != 0 && userTags.Contains(tag))
+                if (currentUser != null && currentUser.Email != "admin@admin.com" && userTags.Count != 0 && userTags.Contains(tag))
                 {
                     <li id="tag"><b>@tag</b></li>
                 }
@@ -88,11 +88,11 @@
                     @if(User.IsInRole("Admin") ||
                        (User.IsInRole("Organisation") && User.FindFirstValue(ClaimTypes.NameIdentifier) == project.OwnerID))
                     {
-                        <a asp-action="Deactivate" asp-route-id="@project.Id">Deactivate</a>
+                            <a asp-action="Deactivate" asp-route-id="@project.Id">Deactivate</a>
                     }
                     @if(User.IsInRole("Admin"))
                     {
-                        <a asp-action="Delete" asp-route-id="@project.Id">Delete</a>
+                            <a asp-action="Delete" asp-route-id="@project.Id">Delete</a>
                     }
                 }
             </td>

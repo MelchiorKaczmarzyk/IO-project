@@ -33,12 +33,7 @@ namespace IOProject.Controllers
         // SearchPhrase gets sent from ShowSearchResultForm form.
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
-            return View("Index", await _context.HelpProjects.Where(j => j.ShortDescription.Contains(SearchPhrase)).ToListAsync());
-        }
-
-        public async Task<IActionResult> OrganisationProjects()
-        {
-            return View("Index", await _context.HelpProjects.Where(j => j.OwnerID.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))).ToListAsync());
+            return View("Index", await _context.HelpProjects.Where(j => j.ShortDescription.Contains(SearchPhrase) && j.isActive).ToListAsync());
         }
 
         public ActionResult SupportProject(int? id)
@@ -68,6 +63,31 @@ namespace IOProject.Controllers
             }
 
             return View(helpProject);
+        }
+        //GET
+        public async Task<IActionResult> Deactivate(int? id)
+        {
+            var helpProject = await _context.HelpProjects.FindAsync(id);
+            if (helpProject != null)
+            {
+                helpProject.isActive = false;
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost, ActionName("Deactivate")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Deactivate(int id)
+        {
+            var helpProject = await _context.HelpProjects.FindAsync(id);
+            if (helpProject != null)
+            {
+                helpProject.isActive = false;
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: HelpProjectsPrint/Create
@@ -146,19 +166,6 @@ namespace IOProject.Controllers
             return View(helpProject);
         }
 
-        //GET
-        public async Task<IActionResult> Deactivate(int? id)
-        {
-            var helpProject = await _context.HelpProjects.FindAsync(id);
-            if (helpProject != null)
-            {
-                helpProject.isActive = false;
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
         // POST: HelpProjectsPrint/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -168,20 +175,6 @@ namespace IOProject.Controllers
             if (helpProject != null)
             {
                 _context.HelpProjects.Remove(helpProject);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        [HttpPost, ActionName("Deactivate")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Deactivate(int id)
-        {
-            var helpProject = await _context.HelpProjects.FindAsync(id);
-            if (helpProject != null)
-            {
-                helpProject.isActive = false;
             }
 
             await _context.SaveChangesAsync();

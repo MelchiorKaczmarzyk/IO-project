@@ -16,7 +16,6 @@ namespace IOProject.Models
         public virtual SystemUser? Owner { get; set; } = null!;
         public DateTime WhenEnds { get; set; }
         public uint targetAmount { get; set; }
-
         public bool isActive { get; set; } = true;
     }
 }
