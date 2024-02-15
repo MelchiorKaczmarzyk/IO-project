@@ -17,7 +17,8 @@ W naszym systemie wyróżniamy cztery główne kategorie użytkowników:
 - Administrator
     - Nadzoruje działaniem akcji pomocowych
     - Ma pełen dostęp do funkcji strony <br>
-  Każdy użytkownik ma również możliwość zarządzania własnym kontem, w tym zmiany hasła, adresu e-mail oraz włączenia weryfikacji dwuetapowej.
+    
+Każdy użytkownik ma również możliwość zarządzania własnym kontem, w tym zmiany hasła, adresu e-mail oraz włączenia weryfikacji dwuetapowej.
 - ### Personalizowane Tagi
 Dzięki personalizowanym tagom, użytkownicy otrzymują spersonalizowaną listę projektów pomocowych, dopasowaną do ich zainteresowań charytatywnych. Podczas rejestracji mają możliwość wybrania tagów odpowiadających akcjom charytatywnym, które ich interesują.
 
@@ -33,4 +34,4 @@ Do projektu również można zamieścić załączniki.
 Projekt można edytować oraz usunąć.
 
 - ### Oferty pomocy
-Oferty pomocy polegają na wysyłaniu podań, zawierających opis proponowanej pomocy oraz opcjonalne załączniki.
+Oferty pomocy polegają na wysyłaniu podań, zawierających załączniki z oferowaną pomocą.
