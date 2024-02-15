@@ -4,12 +4,15 @@
 
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using IOProject.CustomValidation;
 using IOProject.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.IdentityModel.Tokens;
 
 namespace IOProject.Areas.Identity.Pages.Account.Manage
 {
@@ -17,7 +20,7 @@ namespace IOProject.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<SystemUser> _userManager;
         private readonly SignInManager<SystemUser> _signInManager;
-
+        public List<Checkbox> checkboxes { get; set; }
         public IndexModel(
             UserManager<SystemUser> userManager,
             SignInManager<SystemUser> signInManager)
@@ -52,6 +55,9 @@ namespace IOProject.Areas.Identity.Pages.Account.Manage
         /// </summary>
         public class InputModel
         {
+            [Required]
+            [ValidationTags(ErrorMessage = "Select at least one tag")]
+            public List<string> Tags;
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -65,13 +71,53 @@ namespace IOProject.Areas.Identity.Pages.Account.Manage
         {
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
-
+             
             Username = userName;
 
             Input = new InputModel
             {
                 PhoneNumber = phoneNumber
             };
+
+            var currentUser = _userManager.Users.FirstOrDefault(u => 
+            u.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            var userTags = currentUser.tags;
+            checkboxes = new List<Checkbox>
+        {
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Medical procedure"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Rehabilitation"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Natural disasters"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Help for refugees"
+            },
+            new Checkbox()
+            {
+                isChecked = false,
+                description = "Cultural event"
+            }
+        };
+            foreach (var checkbox in checkboxes)
+            {
+                if (userTags.Contains(checkbox.description))
+                {
+                    checkbox.isChecked = true;
+                }
+            }
         }
 
         public async Task<IActionResult> OnGetAsync()
@@ -85,21 +131,27 @@ namespace IOProject.Areas.Identity.Pages.Account.Manage
             await LoadAsync(user);
             return Page();
         }
-
-        public async Task<IActionResult> OnPostAsync()
+        public Task setTagsAsync(SystemUser user, List<string> Tags)
+        {
+            user.tags = Tags;
+            return Task.CompletedTask;
+        }
+            public async Task<IActionResult> OnPostAsync(List<string> Tags)
         {
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
+            if (Tags.IsNullOrEmpty())
+                ModelState.AddModelError(string.Empty, "Select at leas one tag");
 
             if (!ModelState.IsValid)
             {
                 await LoadAsync(user);
                 return Page();
             }
-
+            await setTagsAsync(user, Tags);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
             if (Input.PhoneNumber != phoneNumber)
             {
@@ -111,7 +163,7 @@ namespace IOProject.Areas.Identity.Pages.Account.Manage
                 }
             }
 
-            await _signInManager.RefreshSignInAsync(user);
+            await _signInManager.SignInAsync(user, true);
             StatusMessage = "Your profile has been updated";
             return RedirectToPage();
         }
