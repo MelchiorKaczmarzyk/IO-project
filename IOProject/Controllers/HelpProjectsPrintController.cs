@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IOProject.Models;
+using System.Security.Claims;
 
 //Controller only for showing projects. Everything is auto generated unless commented otherwise.
 namespace IOProject.Controllers
@@ -33,6 +34,11 @@ namespace IOProject.Controllers
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
             return View("Index", await _context.HelpProjects.Where(j => j.Title.Contains(SearchPhrase)).ToListAsync());
+        }
+
+        public async Task<IActionResult> OrganisationProjects()
+        {
+            return View("Index", await _context.HelpProjects.Where(j => j.OwnerID.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))).ToListAsync());
         }
 
         // GET: HelpProjectsPrint/Details/5
@@ -80,8 +86,9 @@ namespace IOProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ShortDescription,LongDescription,WhenCreated,Thumbnail,FileAttachments")] HelpProject helpProject)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ShortDescription,LongDescription,WhenCreated,Thumbnail,FileAttachments,Tags,WhenEnds,OwnerID,targetAmount")] HelpProject helpProject)
         {
+            helpProject.OwnerID = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (id != helpProject.Id)
             {
                 return NotFound();

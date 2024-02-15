@@ -17,10 +17,37 @@ namespace IOProject.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.1")
+                .HasAnnotation("ProductVersion", "8.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("IOProject.Models.Application", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicantID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileAttachments")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProjectID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("WhenCreated")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Application");
+                });
 
             modelBuilder.Entity("IOProject.Models.HelpProject", b =>
                 {
@@ -36,6 +63,9 @@ namespace IOProject.Migrations
                     b.Property<string>("LongDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OwnerID")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ShortDescription")
                         .IsRequired()
@@ -57,16 +87,12 @@ namespace IOProject.Migrations
                     b.Property<DateTime>("WhenEnds")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ownerID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<long>("targetAmount")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ownerID");
+                    b.HasIndex("OwnerID");
 
                     b.ToTable("HelpProjects");
                 });
@@ -278,13 +304,11 @@ namespace IOProject.Migrations
 
             modelBuilder.Entity("IOProject.Models.HelpProject", b =>
                 {
-                    b.HasOne("IOProject.Models.SystemUser", "owner")
+                    b.HasOne("IOProject.Models.SystemUser", "Owner")
                         .WithMany("HelpProjects")
-                        .HasForeignKey("ownerID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OwnerID");
 
-                    b.Navigation("owner");
+                    b.Navigation("Owner");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

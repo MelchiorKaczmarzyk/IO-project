@@ -1,9 +1,12 @@
 ﻿@model IOProject.Models.HelpProject
-
+@using IOProject.Models
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
 @{
     ViewData["Title"] = "Details";
 }
-
+@inject SignInManager<SystemUser> SignInManager
+@inject UserManager<SystemUser> UserManager
 <div>
     <h1>@Html.DisplayFor(model => model.Title)</h1>
     <hr />
@@ -15,16 +18,16 @@
             @Html.DisplayFor(model => model.ShortDescription)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.LongDescription)
+            @Html.DisplayNameFor(model => model.WhenEnds)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.LongDescription)
+            @Html.DisplayFor(model => model.WhenEnds)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.WhenCreated)
+            @Html.DisplayNameFor(model => model.targetAmount)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.WhenCreated)
+            @Html.DisplayFor(model => model.targetAmount)$
         </dd>
         @if (Model.Tags != null)
         {
@@ -53,6 +56,13 @@
         </dd>
 
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LongDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LongDescription)
+        </dd>
+
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.FileAttachments)
         </dt>
         <dd class="col-sm-10">
@@ -67,6 +77,21 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @if (User.IsInRole("Beneficiary") || User.IsInRole("Admin"))
+        {
+            <a asp-controller="Applications" asp-action="Create" asp-route-ProjectID="@Model?.Id">Apply</a>
+            <br />
+        }
+        @if (User.IsInRole("Organisation") && User.FindFirstValue(ClaimTypes.NameIdentifier) == Model.OwnerID || User.IsInRole("Admin"))
+        {
+            <a asp-controller="Applications" asp-action="ShowProjectApplications" asp-route-HelpProjectID="@Model?.Id">Look through applications</a>
+            <br />
+        }
+    }
+    
+    @*<a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |*@
     <a asp-action="Index">Back to List of all active projects</a>
+    
 </div>

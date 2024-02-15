@@ -120,7 +120,7 @@ namespace IOProject.Controllers
                 }
                 HelpProject newHelpProject = new HelpProject
                 {
-                    ownerID = User.FindFirstValue(ClaimTypes.NameIdentifier),
+                    OwnerID = User.FindFirstValue(ClaimTypes.NameIdentifier),
                     Title = model.Title,
                     ShortDescription = model.ShortDescription,
                     LongDescription = model.LongDescription,

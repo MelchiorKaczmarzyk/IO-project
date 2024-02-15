@@ -13,9 +13,10 @@ namespace IOProject.Models
         public List<string>? FileAttachments { get; set; }
         public List<string>? Tags { get; set; }
 
-        public string ownerID { get; set; }
-        public virtual SystemUser owner { get; set; } = null!;
+        public string? OwnerID { get; set; }
+        public virtual SystemUser? Owner { get; set; } = null!;
         public DateTime WhenEnds { get; set; }
         public uint targetAmount { get; set; }
+
     }
 }

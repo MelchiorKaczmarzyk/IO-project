@@ -142,11 +142,17 @@ body {
 }
 
 .thumbnail-image-small {
-    width: 100px;
-    height: 100px;
+    display: block;
+    max-width: 300px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 
 .thumbnail-image-big {
-    width: 250px;
-    height: 250px;
+    display: block;
+    max-width: 10000px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
 }

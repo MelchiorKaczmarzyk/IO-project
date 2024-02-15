@@ -41,12 +41,12 @@ namespace IOProject.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("HelpProjectId")
+                    b.Property<int?>("ProjectID")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("HelpProjectId");
+                    b.HasIndex("ProjectID");
 
                     b.ToTable("FileAttachments");
                 });
@@ -288,7 +288,7 @@ namespace IOProject.Migrations
                 {
                     b.HasOne("IOProject.Models.HelpProject", null)
                         .WithMany("FileAttachments")
-                        .HasForeignKey("HelpProjectId");
+                        .HasForeignKey("ProjectID");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

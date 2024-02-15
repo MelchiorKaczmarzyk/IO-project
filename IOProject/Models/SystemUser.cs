@@ -8,6 +8,6 @@ namespace IOProject.Models
     public class SystemUser : IdentityUser
     {
         public List<string>? tags { get; set; }
-        public virtual ICollection<HelpProject> HelpProjects { get; } = new List<HelpProject>();
+        public ICollection<HelpProject> HelpProjects { get; set; }
     }
 }

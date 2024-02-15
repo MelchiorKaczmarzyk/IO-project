@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using IOProject.Models;
 
 namespace IOProject.Models
 {
@@ -12,5 +13,6 @@ namespace IOProject.Models
         }
 
         public DbSet<HelpProject> HelpProjects { get; set; }
+        public DbSet<IOProject.Models.Application> Application { get; set; } = default!;
     }
 }
