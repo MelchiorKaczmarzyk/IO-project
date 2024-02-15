@@ -51,7 +51,7 @@ namespace IOProject.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_FileAttachments_HelpProjectId",
                 table: "FileAttachments",
-                column: "HelpProjectId");
+                column: "ProjectID");
         }
 
         /// <inheritdoc />

@@ -19,7 +19,7 @@ namespace IOProject.Migrations
                 table: "FileAttachments");
 
             migrationBuilder.DropColumn(
-                name: "HelpProjectId",
+                name: "ProjectID",
                 table: "FileAttachments");
 
             migrationBuilder.AddColumn<string>(
@@ -37,7 +37,7 @@ namespace IOProject.Migrations
                 table: "HelpProjects");
 
             migrationBuilder.AddColumn<int>(
-                name: "HelpProjectId",
+                name: "ProjectID",
                 table: "FileAttachments",
                 type: "int",
                 nullable: true);
@@ -45,12 +45,12 @@ namespace IOProject.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_FileAttachments_HelpProjectId",
                 table: "FileAttachments",
-                column: "HelpProjectId");
+                column: "ProjectID");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_FileAttachments_HelpProjects_HelpProjectId",
                 table: "FileAttachments",
-                column: "HelpProjectId",
+                column: "ProjectID",
                 principalTable: "HelpProjects",
                 principalColumn: "Id");
         }

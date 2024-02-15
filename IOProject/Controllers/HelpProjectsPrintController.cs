@@ -41,6 +41,17 @@ namespace IOProject.Controllers
             return View("Index", await _context.HelpProjects.Where(j => j.OwnerID.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))).ToListAsync());
         }
 
+        public ActionResult SupportProject(int? id)
+        {
+            HelpOffersController helpOffer = new HelpOffersController(_context);
+            return Redirect("/HelpOffers/Create");
+        }
+
+        public async Task<IActionResult> OrganisationProjects()
+        {
+            return View("Index", await _context.HelpProjects.Where(j => j.OwnerID.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))).ToListAsync());
+        }
+
         // GET: HelpProjectsPrint/Details/5
         public async Task<IActionResult> Details(int? id)
         {
