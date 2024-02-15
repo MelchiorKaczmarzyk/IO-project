@@ -33,7 +33,7 @@ namespace IOProject.Controllers
         // SearchPhrase gets sent from ShowSearchResultForm form.
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
-            return View("Index", await _context.HelpProjects.Where(j => j.Title.Contains(SearchPhrase)).ToListAsync());
+            return View("Index", await _context.HelpProjects.Where(j => j.ShortDescription.Contains(SearchPhrase)).ToListAsync());
         }
 
         public async Task<IActionResult> OrganisationProjects()
