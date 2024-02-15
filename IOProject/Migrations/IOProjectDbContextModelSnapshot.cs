@@ -117,6 +117,9 @@ namespace IOProject.Migrations
                     b.Property<DateTime>("WhenEnds")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
                     b.Property<long>("targetAmount")
                         .HasColumnType("bigint");
 
