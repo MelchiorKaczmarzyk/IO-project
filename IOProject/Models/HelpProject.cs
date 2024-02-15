@@ -12,11 +12,10 @@ namespace IOProject.Models
         public string? Thumbnail { get; set; }
         public List<string>? FileAttachments { get; set; }
         public List<string>? Tags { get; set; }
-
         public string? OwnerID { get; set; }
         public virtual SystemUser? Owner { get; set; } = null!;
         public DateTime WhenEnds { get; set; }
         public uint targetAmount { get; set; }
-
+        public bool isActive { get; set; } = true;
     }
 }
