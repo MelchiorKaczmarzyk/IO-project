@@ -119,6 +119,7 @@ namespace IOProject.Controllers
         }
 
         public IActionResult ApplicationAdded() => View();
+
        /* // POST: Application/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

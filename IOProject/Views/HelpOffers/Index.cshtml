@@ -1,11 +1,51 @@
-﻿@model IEnumerable<IOProject.Models.HelpOffer>
-@inject SignInManager<IdentityUser> SignInManager
+﻿@*@using IOProject.Models*@
+@model IEnumerable<IOProject.Models.HelpOffer>
+@*@inject SignInManager<SystemUser> SignInManager*@
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Benefactors' offers:</h1>
 
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WhenCreated)
+            </th>
+            <th>
+                ByWhom
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProjectId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WhenCreated)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BenefactorId)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@*
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -123,3 +163,4 @@
         }
     </tbody>
 </table>
+*@

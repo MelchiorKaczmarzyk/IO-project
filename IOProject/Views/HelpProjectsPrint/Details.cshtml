@@ -86,21 +86,22 @@
             </h5>
             <br />
         }
+        @if (User.IsInRole("Benefactor") || User.IsInRole("Admin"))
+        {
+            <h5>
+                <a asp-controller="HelpOffers" asp-action="Create" asp-route-ProjectID="@Model?.Id">Support project</a>
+            </h5><br />
+        }
         @if (User.IsInRole("Organisation") && User.FindFirstValue(ClaimTypes.NameIdentifier) == Model.OwnerID || User.IsInRole("Admin"))
         {
             <h5>
             <a asp-controller="Applications" asp-action="ShowProjectApplications" asp-route-HelpProjectID="@Model?.Id">Look through applications</a>
             </h5>
+            <h5>
+                <a asp-controller="HelpOffers" asp-action="ShowProjectOffers" asp-route-HelpProjectID="@Model?.Id">Look through help offers</a>
+            </h5>
             <br />
-        }
-    }
-    @if (SignInManager.IsSignedIn(User))
-    {
-        @if (User.IsInRole("Benefactor") || User.IsInRole("Admin"))
-        {
-            <a asp-controller="HelpOffers" asp-action="helpProject" asp-route-id="@Model?.Id">Support project</a>
-            <br />
-        }
+        } 
     }
     
     @*<a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |*@

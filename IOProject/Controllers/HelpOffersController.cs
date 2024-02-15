@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using IOProject.Models;
 using Microsoft.CodeAnalysis;
 using Microsoft.Build.Evaluation;
+using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 
 namespace IOProject.Controllers
@@ -25,20 +26,16 @@ namespace IOProject.Controllers
         // GET: HelpOffers
         public async Task<IActionResult> Index()
         {
-            if (User.IsInRole("Organisation"))
-            {
-                List<int> data = new List<int>();
-                var a = _context.HelpProjects.ToArray();
-                foreach (var v in a)
-                {
-                    if (v.OwnerID == User.FindFirstValue(ClaimTypes.NameIdentifier))
-                    {
-                        data.Add(v.Id);
-                    }
-                }
-                ViewData["OrganisationProjects"] = data;
-            }
             return View(await _context.HelpOffer.ToListAsync());
+        }
+
+        public async Task<IActionResult> ShowProjectOffers(int HelpProjectID)
+        {
+            return View("Index", await _context.HelpOffer.Where(j => j.ProjectId.Equals(HelpProjectID)).ToListAsync());
+        }
+        public async Task<IActionResult> MyOffers()
+        {
+            return View("Index", await _context.HelpOffer.Where(j => j.BenefactorId.Equals(User.FindFirstValue(ClaimTypes.NameIdentifier))).ToListAsync());
         }
 
         // GET: HelpOffers/Details/5
@@ -60,8 +57,9 @@ namespace IOProject.Controllers
         }
 
         // GET: HelpOffers/Create
-        public IActionResult Create()
+        public IActionResult Create(int ProjectID)
         {
+            projectId= ProjectID;
             return View();
         }
 
@@ -73,12 +71,14 @@ namespace IOProject.Controllers
         public async Task<IActionResult> Create([Bind("Amount,Description")] HelpOffer helpOffer)
         {
             helpOffer.ProjectId = projectId;
-            helpOffer.BenefactorId = User.Identity.Name;
+            helpOffer.BenefactorId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             helpOffer.WhenCreated = DateTime.Now;
             _context.HelpOffer.Add(helpOffer);
             _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("OfferAdded");
         }
+
+        public IActionResult OfferAdded() => View();
 
         public async Task<IActionResult> helpProject(int? id)
         {
@@ -167,7 +167,7 @@ namespace IOProject.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index", new { HelpProjectID = helpOffer.ProjectId });
         }
 
         private bool HelpOfferExists(int id)
